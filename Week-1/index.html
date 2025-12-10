@@ -28,28 +28,6 @@
 </body>
 
 
-<!-- basic html pag -->
- <html>
-	<title>
-		Visual Studio Code - Code Editor
-	</title>
-</html>
-<body>
-	<div>
-		<span>Visual Studio Code</span>
-		<a href="/">Docs</span> 
-		<a href="/">Updates</span> 
-		<a href="/">Blog</span> 
-		<a href="/">API</span> 
-		<a href="/">Extensions</span> 
-		<a href="/">FAQs</span>
-		<a href="/">Learn</span>
-		
-		<input type="text" placeholder="Search Docs">
-		<button>Download</button>
-	</div>
-	<br/>
-
 	<div>
 		<a href="/">Version 1.82</a> is now available! Read about the new features and fixes from July.
 	</div>
@@ -91,3 +69,58 @@
 
 </body>
 </html>
+
+
+
+
+
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+}
+
+.black-box {
+  position: relative;
+  z-index: 1;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+}
+
+.gray-box {
+  position: absolute;
+  z-index: 3;
+  background: lightgray;
+  height: 60px;
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
+
+.green-box {
+  position: absolute;
+  z-index: 2;
+  background: lightgreen;
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 100px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="black-box">Black box</div>
+  <div class="gray-box">Gray box</div>
+  <div class="green-box">Green box</div>
+</div>
+
+</body>
+</html>
+Without z-index
+If several positioned elements overlap each other without a z-index specified, the elements render in the order they are defined in the HTML source code.
+
+Example
