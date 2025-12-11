@@ -1,126 +1,21 @@
-<html>
-	<title>
-		Visual Studio Code - Code Editor
-	</title>
-</html>
-<body>
-	<div style="display: flex;">
-		<div>Visual Studio Code</div>
-		<a href="/">Docs</span> 
-		<a href="/">Updates</span> 
-		<a href="/">Blog</span> 
-		<a href="/">API</span> 
-		<a href="/">Extensions</span> 
-		<a href="/">FAQs</span>
-		<a href="/">Learn</span>
-	</div>
-	<div>
-		<input type="text" placeholder="Search Docs">
-		<button>Download</button>
-	</div>
-	<br/>
-
-	<div>
-		<a href="/">Version 1.82</a> is now available! Read about the new features and fixes from July.
-	</div>
-
-	<br/>
-</body>
 
 
-	<div>
-		<a href="/">Version 1.82</a> is now available! Read about the new features and fixes from July.
-	</div>
+// 1. String variable
+let name = "Manish";
+console.log("Name:", name);
 
-	<br/>
-</body>
+// 2. Number variable
+let age = 25;
+console.log("Age:", age);
 
+// 3. Boolean variable
+let isStudent = true;
+console.log("Is Student:", isStudent);
 
+// 4. Using variables together
+let message = name + " is " + age + " years old.";
+console.log(message);
 
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Day 5 Practice</title>
-  <style>
-    .box {
-      color: white;
-      background-color: #4A90E2;
-      padding: 20px;
-      margin: 30px;
-      border: 2px solid black;
-    }
-
-    #special {
-      background-color: #50C878;
-      padding: 15px;
-    }
-  </style>
-</head>
-
-<body>
-
-  <div class="box">
-    This is a simple box with margin, padding, border & background-color.
-  </div>
-
-  <div id="special">
-    This is styled using an ID selector.
-  </div>
-
-</body>
-</html>
-
-
-
-
-
-<html>
-<head>
-<style>
-.container {
-  position: relative;
-}
-
-.black-box {
-  position: relative;
-  z-index: 1;
-  border: 2px solid black;
-  height: 100px;
-  margin: 30px;
-}
-
-.gray-box {
-  position: absolute;
-  z-index: 3;
-  background: lightgray;
-  height: 60px;
-  width: 70%;
-  left: 50px;
-  top: 50px;
-}
-
-.green-box {
-  position: absolute;
-  z-index: 2;
-  background: lightgreen;
-  width: 35%;
-  left: 270px;
-  top: -15px;
-  height: 100px;
-}
-</style>
-</head>
-<body>
-
-<div class="container">
-  <div class="black-box">Black box</div>
-  <div class="gray-box">Gray box</div>
-  <div class="green-box">Green box</div>
-</div>
-
-</body>
-</html>
-Without z-index
-If several positioned elements overlap each other without a z-index specified, the elements render in the order they are defined in the HTML source code.
-
-Example
+// 5. Updating a variable
+age = age + 1;
+console.log("Updated Age:", age);
